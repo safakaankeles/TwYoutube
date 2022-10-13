@@ -12,6 +12,7 @@ module.exports = {
       pickTextColor: "#FBFAFA",
       navHoverBg: "#383838",
       fadeTextCl: "#AAAAAA",
+      suggestionsCl: "#3B3939",
     },
     extend: {
       width: {
@@ -19,6 +20,7 @@ module.exports = {
       },
       height: {
         400: "3600px",
+        320: "1280px",
       },
     },
   },
