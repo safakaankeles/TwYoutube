@@ -13,10 +13,23 @@ module.exports = {
       navHoverBg: "#383838",
       fadeTextCl: "#AAAAAA",
       suggestionsCl: "#3B3939",
+      videosBgCl: "#181818",
     },
+
     extend: {
+      spacing: {
+        90: "360px",
+        50: "200px",
+        120: "480px",
+        150: "600px",
+        180: "720px",
+        210: "1673px",
+        240: "960px",
+        350: "2000px",
+      },
       width: {
-        128: "550px",
+        128: "530px",
+        1960: "1960px",
       },
       height: {
         400: "3600px",

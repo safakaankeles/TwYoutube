@@ -7,10 +7,11 @@
     <link href="/dist/output.css" rel="stylesheet" />
     <title>Document</title>
   </head>
-  <body class="bg-youtubeBg h-400 overflow-auto text-textcolor text-xl">
-    <div class="blackbox w-full m-auto py-0 px-5 mt-0 z-40">
+  <body class="bg-youtubeBg text-textcolor text-xl">
+    <!-- Top Menü Start -->
+    <div class="blackbox w-full py-0 px-5 mt-0 z-40 bg-youtubeBg">
       <header
-        class="topMenu flex fixed items-center justify-between w-full m-0 h-14 z-50"
+        class="topMenu flex fixed items-center justify-between w-full m-0 h-14 z-50 bg-youtubeBg"
       >
         <div class="topLeft flex ml-1">
           <div class="menuIcon my-2">
@@ -106,9 +107,9 @@
           </div>
         </div>
         <div class="searchSide flex">
-          <div class="searchPut flex p-1">
+          <div class="searchPut flex p-1 pl-4">
             <input
-              class="w-128 px-2 h-10 placeholder-placeHolderCl bg-searchBg border-borderCl border-2"
+              class="w-128 px-2 h-10 placeholder-placeHolderCl bg-searchBg border-borderCl border text-sm"
               type="search"
               placeholder="Ara"
             />
@@ -230,11 +231,17 @@
         </div>
       </header>
     </div>
-    <div class="flex">
+    <!-- Top Menu Finish -->
+
+    <!-- Genaral Flow Start -->
+    <div class="">
+      <!-- LeftNav Start -->
       <div
-        class="leftNav h-320 top-14 w-60 z-10 fixed flex flex-col overflow-scroll scroll"
+        class="leftNav h-320 top-14 w-60 flex flex-col fixed z-30 bg-youtubeBg"
       >
-        <ul class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-3">
+        <ul
+          class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-3 z-20 bg-youtubeBg"
+        >
           <li class="w-56 h-10 leading-10 text-sm pl-6 bg-navHoverBg">
             <a href="" class="flex text-pickTextColor"
               ><svg
@@ -341,7 +348,9 @@
             >
           </li>
         </ul>
-        <ul class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-3">
+        <ul
+          class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-3 z-20 bg-youtubeBg"
+        >
           <li class="w-56 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
             <a href="" class="flex"
               ><svg
@@ -493,7 +502,9 @@
             >
           </li>
         </ul>
-        <ul class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-0">
+        <ul
+          class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-0 z-20 bg-youtubeBg"
+        >
           <h1 class="text-sm font-medium text-fadeTextCl ml-6 mt-3 mb-2">
             ABONELİKLER
           </h1>
@@ -607,7 +618,9 @@
             >
           </li>
         </ul>
-        <ul class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-1">
+        <ul
+          class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-1 z-20 bg-youtubeBg"
+        >
           <h1 class="text-sm font-medium text-fadeTextCl ml-6 mt-3 mb-2">
             KEŞFET
           </h1>
@@ -687,7 +700,9 @@
             >
           </li>
         </ul>
-        <ul class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-1">
+        <ul
+          class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-1 z-20 bg-youtubeBg"
+        >
           <h1 class="text-sm font-medium text-fadeTextCl ml-6 mt-3 mb-2">
             YOUTUBE'DAN DAHA FAZLA İÇERİK
           </h1>
@@ -946,7 +961,9 @@
             >
           </li>
         </ul>
-        <ul class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-2">
+        <ul
+          class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-2 z-20 bg-youtubeBg"
+        >
           <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
@@ -1048,96 +1065,512 @@
             >
           </li>
         </ul>
-        <h1 class="w-56 text-sm ml-6 mt-2 text-fadeTextCl">
+        <h1 class="w-56 text-sm ml-6 mt-2 text-fadeTextCl z-20 bg-youtubeBg">
           Hakkında Basın Telif hakkı Bize ulaşın İçerik Üreticiler Reklam verme
           Geliştiriciler
         </h1>
-        <h1 class="w-56 h-auto text-sm ml-6 mt-2 text-fadeTextCl">
+        <h1
+          class="w-56 h-auto text-sm ml-6 mt-2 text-fadeTextCl z-20 bg-youtubeBg"
+        >
           Şartlar Gizlilik Politika ve Güvenlik YouTube Nasıl Çalışıyor? Yeni
           özellikleri deneyin
         </h1>
-        <p class="ml-6 mt-2 text-xs text-buttonBg">© 2022 Google LLC</p>
+        <p class="ml-6 mt-2 text-xs text-buttonBg z-20 bg-youtubeBg">
+          © 2022 Google LLC
+        </p>
       </div>
-      <div class="generalFlow">
-        <div class="suggestions">
+
+      <!-- Left Nav Finish -->
+      <!-- Top Nav Start -->
+      <div class="gen flex justify-between w-full fixed bg-youtubeBg">
+        <!-- <div class="spaceBox bg-videosBgCl relative top-18 mr-40 h-2"></div> -->
+        <div
+          class="suggestions flex top-14 relative ml-20 bg-youtubeBg w-screen border-t border-b border-borderCl"
+        >
           <ul
-            class="flex top-16 pt-3 pl-2 left-64 text-sm border-t relative border-borderCl border-b pb-3"
+            class="flex pt-3 text-sm border-t border-borderCl border-b pb-3 mx-auto"
           >
             <li
-              class="px-3 py-1.5 mt-1 bg-pickTextColor rounded-l-full rounded-r-full text-searchBg"
+              class="w-16 h-8 leading-7 text-center px-2 bg-pickTextColor rounded-l-full rounded-r-full text-searchBg mr-4"
             >
               <a href=""><h1>Tümü</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-16 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>Oyun</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-18 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>Mix'ler</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-18 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>Müzik</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-48 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>Yemek pişirme programları</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-20 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>Basketbol</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-18 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>Futbol</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-48 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>Aksiyon-macera oyunları</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-24 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>Rap yapma</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-24 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>El Sanatları</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-36 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>Spor video oyunları</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-32 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>Son yüklenenler</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-24 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>İzlenenler</h1></a>
             </li>
             <li
-              class="px-3 py-1.5 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl"
+              class="w-28 h-8 leading-7 text-center px-2 bg-suggestionsCl rounded-full text-pickTextColor border border-borderCl mr-2"
             >
               <a href=""><h1>Yeni öneriler</h1></a>
             </li>
           </ul>
         </div>
-        <div class="videos"></div>
-        <div class="shorts"></div>
-        <div class="videosFull"></div>
+        <!-- <div class="spaceBox bg-videosBgCl relative top-20 w-20 h-2"></div> -->
+      </div>
+      <!-- Top Nav Finish -->
+      <div class="generalCont mx-auto flex justify-center bg-videosBgCl">
+        <div class="generalFlow flex">
+          <!--  General Videos Start -->
+          <div
+            class="videos grid grid-cols-6 grid-rows-2 w-auto mr-auto ml-50 mt-36 gap-5"
+          >
+            <div class="videoInfo w-90 h-80">
+              <a href="">
+                <img
+                  src="/img/tailwindcss-1633184775.jpeg"
+                  style="height: 200px"
+                  alt=""
+                />
+                <div class="videosOwner flex">
+                  <div class="OwnerPhoto">
+                    <img
+                      id="img"
+                      draggable="false"
+                      class="style-scope yt-img-shadow rounded-3xl w-9 mr-3 mt-3"
+                      height="24"
+                      width="24"
+                      alt=""
+                      src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s88-c-k-c0x00ffffff-no-rj"
+                    />
+                  </div>
+                  <div class="videosInfos pr-6 mt-2">
+                    <h1
+                      class="text-base text-pickTextColor font-bold tracking-wide"
+                    >
+                      What's new in Tailwind CSS v3.1?
+                    </h1>
+                    <p class="text-sm text-fadeTextCl">Tailwind Labs</p>
+                    <p class="text-sm text-fadeTextCl">
+                      287 B görüntüleme . 4 ay önce
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="videoInfo w-90 h-80">
+              <a href="">
+                <img
+                  src="/img/tailwindcss-1633184775.jpeg"
+                  style="height: 200px"
+                  alt=""
+                />
+                <div class="videosOwner flex">
+                  <div class="OwnerPhoto">
+                    <img
+                      id="img"
+                      draggable="false"
+                      class="style-scope yt-img-shadow rounded-3xl w-9 mr-3 mt-3"
+                      height="24"
+                      width="24"
+                      alt=""
+                      src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s88-c-k-c0x00ffffff-no-rj"
+                    />
+                  </div>
+                  <div class="videosInfos pr-6 mt-2">
+                    <h1
+                      class="text-base text-pickTextColor font-bold tracking-wide"
+                    >
+                      What's new in Tailwind CSS v3.1?
+                    </h1>
+                    <p class="text-sm text-fadeTextCl">Tailwind Labs</p>
+                    <p class="text-sm text-fadeTextCl">
+                      287 B görüntüleme . 4 ay önce
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="videoInfo w-90 h-80">
+              <a href="">
+                <img
+                  src="/img/tailwindcss-1633184775.jpeg"
+                  style="height: 200px"
+                  alt=""
+                />
+                <div class="videosOwner flex">
+                  <div class="OwnerPhoto">
+                    <img
+                      id="img"
+                      draggable="false"
+                      class="style-scope yt-img-shadow rounded-3xl w-9 mr-3 mt-3"
+                      height="24"
+                      width="24"
+                      alt=""
+                      src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s88-c-k-c0x00ffffff-no-rj"
+                    />
+                  </div>
+                  <div class="videosInfos pr-6 mt-2">
+                    <h1
+                      class="text-base text-pickTextColor font-bold tracking-wide"
+                    >
+                      What's new in Tailwind CSS v3.1?
+                    </h1>
+                    <p class="text-sm text-fadeTextCl">Tailwind Labs</p>
+                    <p class="text-sm text-fadeTextCl">
+                      287 B görüntüleme . 4 ay önce
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="videoInfo w-90 h-80">
+              <a href="">
+                <img
+                  src="/img/tailwindcss-1633184775.jpeg"
+                  style="height: 200px"
+                  alt=""
+                />
+                <div class="videosOwner flex">
+                  <div class="OwnerPhoto">
+                    <img
+                      id="img"
+                      draggable="false"
+                      class="style-scope yt-img-shadow rounded-3xl w-9 mr-3 mt-3"
+                      height="24"
+                      width="24"
+                      alt=""
+                      src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s88-c-k-c0x00ffffff-no-rj"
+                    />
+                  </div>
+                  <div class="videosInfos pr-6 mt-2">
+                    <h1
+                      class="text-base text-pickTextColor font-bold tracking-wide"
+                    >
+                      What's new in Tailwind CSS v3.1?
+                    </h1>
+                    <p class="text-sm text-fadeTextCl">Tailwind Labs</p>
+                    <p class="text-sm text-fadeTextCl">
+                      287 B görüntüleme . 4 ay önce
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="videoInfo w-90 h-80">
+              <a href="">
+                <img
+                  src="/img/tailwindcss-1633184775.jpeg"
+                  style="height: 200px"
+                  alt=""
+                />
+                <div class="videosOwner flex">
+                  <div class="OwnerPhoto">
+                    <img
+                      id="img"
+                      draggable="false"
+                      class="style-scope yt-img-shadow rounded-3xl w-9 mr-3 mt-3"
+                      height="24"
+                      width="24"
+                      alt=""
+                      src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s88-c-k-c0x00ffffff-no-rj"
+                    />
+                  </div>
+                  <div class="videosInfos pr-6 mt-2">
+                    <h1
+                      class="text-base text-pickTextColor font-bold tracking-wide"
+                    >
+                      What's new in Tailwind CSS v3.1?
+                    </h1>
+                    <p class="text-sm text-fadeTextCl">Tailwind Labs</p>
+                    <p class="text-sm text-fadeTextCl">
+                      287 B görüntüleme . 4 ay önce
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="videoInfo w-90 h-80">
+              <a href="">
+                <img
+                  src="/img/tailwindcss-1633184775.jpeg"
+                  style="height: 200px"
+                  alt=""
+                />
+                <div class="videosOwner flex">
+                  <div class="OwnerPhoto">
+                    <img
+                      id="img"
+                      draggable="false"
+                      class="style-scope yt-img-shadow rounded-3xl w-9 mr-3 mt-3"
+                      height="24"
+                      width="24"
+                      alt=""
+                      src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s88-c-k-c0x00ffffff-no-rj"
+                    />
+                  </div>
+                  <div class="videosInfos pr-6 mt-2">
+                    <h1
+                      class="text-base text-pickTextColor font-bold tracking-wide"
+                    >
+                      What's new in Tailwind CSS v3.1?
+                    </h1>
+                    <p class="text-sm text-fadeTextCl">Tailwind Labs</p>
+                    <p class="text-sm text-fadeTextCl">
+                      287 B görüntüleme . 4 ay önce
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="videoInfo w-90 h-80">
+              <a href="">
+                <img
+                  src="/img/tailwindcss-1633184775.jpeg"
+                  style="height: 200px"
+                  alt=""
+                />
+                <div class="videosOwner flex">
+                  <div class="OwnerPhoto">
+                    <img
+                      id="img"
+                      draggable="false"
+                      class="style-scope yt-img-shadow rounded-3xl w-9 mr-3 mt-3"
+                      height="24"
+                      width="24"
+                      alt=""
+                      src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s88-c-k-c0x00ffffff-no-rj"
+                    />
+                  </div>
+                  <div class="videosInfos pr-6 mt-2">
+                    <h1
+                      class="text-base text-pickTextColor font-bold tracking-wide"
+                    >
+                      What's new in Tailwind CSS v3.1?
+                    </h1>
+                    <p class="text-sm text-fadeTextCl">Tailwind Labs</p>
+                    <p class="text-sm text-fadeTextCl">
+                      287 B görüntüleme . 4 ay önce
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="videoInfo w-90 h-80">
+              <a href="">
+                <img
+                  src="/img/tailwindcss-1633184775.jpeg"
+                  style="height: 200px"
+                  alt=""
+                />
+                <div class="videosOwner flex">
+                  <div class="OwnerPhoto">
+                    <img
+                      id="img"
+                      draggable="false"
+                      class="style-scope yt-img-shadow rounded-3xl w-9 mr-3 mt-3"
+                      height="24"
+                      width="24"
+                      alt=""
+                      src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s88-c-k-c0x00ffffff-no-rj"
+                    />
+                  </div>
+                  <div class="videosInfos pr-6 mt-2">
+                    <h1
+                      class="text-base text-pickTextColor font-bold tracking-wide"
+                    >
+                      What's new in Tailwind CSS v3.1?
+                    </h1>
+                    <p class="text-sm text-fadeTextCl">Tailwind Labs</p>
+                    <p class="text-sm text-fadeTextCl">
+                      287 B görüntüleme . 4 ay önce
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="videoInfo w-90 h-80">
+              <a href="">
+                <img
+                  src="/img/tailwindcss-1633184775.jpeg"
+                  style="height: 200px"
+                  alt=""
+                />
+                <div class="videosOwner flex">
+                  <div class="OwnerPhoto">
+                    <img
+                      id="img"
+                      draggable="false"
+                      class="style-scope yt-img-shadow rounded-3xl w-9 mr-3 mt-3"
+                      height="24"
+                      width="24"
+                      alt=""
+                      src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s88-c-k-c0x00ffffff-no-rj"
+                    />
+                  </div>
+                  <div class="videosInfos pr-6 mt-2">
+                    <h1
+                      class="text-base text-pickTextColor font-bold tracking-wide"
+                    >
+                      What's new in Tailwind CSS v3.1?
+                    </h1>
+                    <p class="text-sm text-fadeTextCl">Tailwind Labs</p>
+                    <p class="text-sm text-fadeTextCl">
+                      287 B görüntüleme . 4 ay önce
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="videoInfo w-90 h-80">
+              <a href="">
+                <img
+                  src="/img/tailwindcss-1633184775.jpeg"
+                  style="height: 200px"
+                  alt=""
+                />
+                <div class="videosOwner flex">
+                  <div class="OwnerPhoto">
+                    <img
+                      id="img"
+                      draggable="false"
+                      class="style-scope yt-img-shadow rounded-3xl w-9 mr-3 mt-3"
+                      height="24"
+                      width="24"
+                      alt=""
+                      src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s88-c-k-c0x00ffffff-no-rj"
+                    />
+                  </div>
+                  <div class="videosInfos pr-6 mt-2">
+                    <h1
+                      class="text-base text-pickTextColor font-bold tracking-wide"
+                    >
+                      What's new in Tailwind CSS v3.1?
+                    </h1>
+                    <p class="text-sm text-fadeTextCl">Tailwind Labs</p>
+                    <p class="text-sm text-fadeTextCl">
+                      287 B görüntüleme . 4 ay önce
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="videoInfo w-90 h-80">
+              <a href="">
+                <img
+                  src="/img/tailwindcss-1633184775.jpeg"
+                  style="height: 200px"
+                  alt=""
+                />
+                <div class="videosOwner flex">
+                  <div class="OwnerPhoto">
+                    <img
+                      id="img"
+                      draggable="false"
+                      class="style-scope yt-img-shadow rounded-3xl w-9 mr-3 mt-3"
+                      height="24"
+                      width="24"
+                      alt=""
+                      src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s88-c-k-c0x00ffffff-no-rj"
+                    />
+                  </div>
+                  <div class="videosInfos pr-6 mt-2">
+                    <h1
+                      class="text-base text-pickTextColor font-bold tracking-wide"
+                    >
+                      What's new in Tailwind CSS v3.1?
+                    </h1>
+                    <p class="text-sm text-fadeTextCl">Tailwind Labs</p>
+                    <p class="text-sm text-fadeTextCl">
+                      287 B görüntüleme . 4 ay önce
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="videoInfo w-90 h-80">
+              <a href="">
+                <img
+                  src="/img/tailwindcss-1633184775.jpeg"
+                  style="height: 200px"
+                  alt=""
+                />
+                <div class="videosOwner flex">
+                  <div class="OwnerPhoto">
+                    <img
+                      id="img"
+                      draggable="false"
+                      class="style-scope yt-img-shadow rounded-3xl w-9 mr-3 mt-3"
+                      height="24"
+                      width="24"
+                      alt=""
+                      src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s88-c-k-c0x00ffffff-no-rj"
+                    />
+                  </div>
+                  <div class="videosInfos pr-6 mt-2">
+                    <h1
+                      class="text-base text-pickTextColor font-bold tracking-wide"
+                    >
+                      What's new in Tailwind CSS v3.1?
+                    </h1>
+                    <p class="text-sm text-fadeTextCl">Tailwind Labs</p>
+                    <p class="text-sm text-fadeTextCl">
+                      287 B görüntüleme . 4 ay önce
+                    </p>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="shorts"></div>
+          <div class="videosFull"></div>
+        </div>
       </div>
     </div>
   </body>
