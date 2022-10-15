@@ -18,8 +18,21 @@ li {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
+  background-color: #aaaaaa;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #717070;
+}
+
+@layer utilities {
+  /* 2304 6’lı grid
+1968 5li grid
+1312 leftnav küçülcek
+1144 4lü grid
+888 3lü grid
+790 leftnav none
+656 searchbutton kaybolcak
+510 2li grid
+500 tekli grid */
 }

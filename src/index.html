@@ -7,7 +7,7 @@
     <link href="/dist/output.css" rel="stylesheet" />
     <title>Document</title>
   </head>
-  <body class="bg-youtubeBg text-textcolor text-xl">
+  <body class="bg-videosBgCl text-textcolor text-xl h-400">
     <!-- Top Menü Start -->
     <div class="blackbox w-full py-0 px-5 mt-0 z-40 bg-youtubeBg">
       <header
@@ -109,7 +109,7 @@
         <div class="searchSide flex">
           <div class="searchPut flex p-1 pl-4">
             <input
-              class="w-128 px-2 h-10 placeholder-placeHolderCl bg-searchBg border-borderCl border text-sm"
+              class="w-128 px-2 h-10 placeholder-placeHolderCl bg-searchBg border-borderCl border text-sm stage6:w-96"
               type="search"
               placeholder="Ara"
             />
@@ -143,7 +143,7 @@
             </div>
           </div>
           <div
-            class="talkSearch h-10 px-2 rad bg-searchBg rounded-full items-center mt-1"
+            class="talkSearch h-10 px-2 rad bg-searchBg rounded-full items-center mt-1 stage9:hidden"
           >
             <svg
               viewBox="0 0 24 24"
@@ -236,13 +236,11 @@
     <!-- Genaral Flow Start -->
     <div class="">
       <!-- LeftNav Start -->
-      <div
-        class="leftNav h-320 top-14 w-60 flex flex-col fixed z-30 bg-youtubeBg"
-      >
+      <div class="leftNav top-14 w-60 flex flex-col fixed bg-youtubeBg h-400">
         <ul
           class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-3 z-20 bg-youtubeBg"
         >
-          <li class="w-56 h-10 leading-10 text-sm pl-6 bg-navHoverBg">
+          <li class="w-60 h-10 leading-10 text-sm pl-6 bg-navHoverBg">
             <a href="" class="flex text-pickTextColor"
               ><svg
                 viewBox="0 0 24 24"
@@ -267,7 +265,7 @@
               <h1>Ana Sayfa</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex"
               ><svg
                 viewBox="0 0 24 24"
@@ -292,7 +290,7 @@
               <h1>Keşfet</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex"
               ><svg
                 viewBox="0 0 24 24"
@@ -322,7 +320,7 @@
               <h1>Shorts</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex"
               ><svg
                 viewBox="0 0 24 24"
@@ -351,7 +349,7 @@
         <ul
           class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-3 z-20 bg-youtubeBg"
         >
-          <li class="w-56 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
+          <li class="w-60 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
             <a href="" class="flex"
               ><svg
                 viewBox="0 0 24 24"
@@ -376,7 +374,7 @@
               <h1>Kitaplık</h1></a
             >
           </li>
-          <li class="w-56 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
+          <li class="w-60 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
             <a href="" class="flex"
               ><svg
                 viewBox="0 0 24 24"
@@ -401,7 +399,7 @@
               <h1>Geçmiş</h1></a
             >
           </li>
-          <li class="w-56 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
+          <li class="w-60 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
             <a href="" class="flex"
               ><svg
                 viewBox="0 0 24 24"
@@ -426,7 +424,7 @@
               <h1>Videolarınız</h1></a
             >
           </li>
-          <li class="w-56 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
+          <li class="w-60 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
             <a href="" class="flex"
               ><svg
                 viewBox="0 0 24 24"
@@ -451,7 +449,7 @@
               <h1>Daha sonra izle</h1></a
             >
           </li>
-          <li class="w-56 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
+          <li class="w-60 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
             <a href="" class="flex"
               ><svg
                 viewBox="0 0 24 24"
@@ -476,7 +474,7 @@
               <h1>Beğendiğim videolar</h1></a
             >
           </li>
-          <li class="w-56 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
+          <li class="w-60 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
             <a href="" class="flex"
               ><svg
                 viewBox="0 0 24 24"
@@ -508,7 +506,7 @@
           <h1 class="text-sm font-medium text-fadeTextCl ml-6 mt-3 mb-2">
             ABONELİKLER
           </h1>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><img
                 id="img"
@@ -522,7 +520,7 @@
               <h1>Tailwind Labs</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><img
                 id="img"
@@ -536,7 +534,7 @@
               <h1>Tailwind Labs</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><img
                 id="img"
@@ -550,7 +548,7 @@
               <h1>Tailwind Labs</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><img
                 id="img"
@@ -564,7 +562,7 @@
               <h1>Tailwind Labs</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><img
                 id="img"
@@ -578,7 +576,7 @@
               <h1>Tailwind Labs</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><img
                 id="img"
@@ -592,7 +590,7 @@
               <h1>Tailwind Labs</h1></a
             >
           </li>
-          <li class="w-56 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
+          <li class="w-60 h-10 leading-10 text-sm pl-6 hover:bg-navHoverBg">
             <a href="" class="flex"
               ><svg
                 viewBox="0 0 24 24"
@@ -619,12 +617,12 @@
           </li>
         </ul>
         <ul
-          class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-1 z-20 bg-youtubeBg"
+          class="border-b border-navHoverBg pb-3 w-60 pr-2 pt-1 z-20 bg-youtubeBg"
         >
           <h1 class="text-sm font-medium text-fadeTextCl ml-6 mt-3 mb-2">
             KEŞFET
           </h1>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
                 viewBox="0 0 24 24"
@@ -649,7 +647,7 @@
               <h1>Oyun</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
                 viewBox="0 0 24 24"
@@ -674,7 +672,7 @@
               <h1>Canlı</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
                 viewBox="0 0 24 24"
@@ -701,12 +699,12 @@
           </li>
         </ul>
         <ul
-          class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-1 z-20 bg-youtubeBg"
+          class="border-b border-navHoverBg pb-3 w-60 pr-2 pt-1 z-20 bg-youtubeBg"
         >
           <h1 class="text-sm font-medium text-fadeTextCl ml-6 mt-3 mb-2">
             YOUTUBE'DAN DAHA FAZLA İÇERİK
           </h1>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
                 viewBox="0 0 24 24"
@@ -809,7 +807,7 @@
               <h1>YouTube Premium</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
                 viewBox="0 0 24 24"
@@ -850,7 +848,7 @@
               <h1>İçerik Stüdyosu</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
                 viewBox="0 0 24 24"
@@ -888,7 +886,7 @@
               <h1>YouTube Music</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
                 viewBox="0 0 24 24"
@@ -929,7 +927,7 @@
               <h1>YouTube Kids</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
                 viewBox="0 0 24 24"
@@ -962,9 +960,9 @@
           </li>
         </ul>
         <ul
-          class="border-b border-navHoverBg pb-3 w-56 pr-2 pt-2 z-20 bg-youtubeBg"
+          class="border-b border-navHoverBg pb-3 w-60 pr-2 pt-2 z-20 bg-youtubeBg"
         >
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
                 viewBox="0 0 24 24"
@@ -989,7 +987,7 @@
               <h1>Ayarlar</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
                 viewBox="0 0 24 24"
@@ -1014,7 +1012,7 @@
               <h1>İçerik bildirme geçmişi</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
                 viewBox="0 0 24 24"
@@ -1039,7 +1037,7 @@
               <h1>Yardım</h1></a
             >
           </li>
-          <li class="w-56 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
+          <li class="w-60 pl-6 h-10 leading-10 text-sm hover:bg-navHoverBg">
             <a href="" class="flex h-6"
               ><svg
                 viewBox="0 0 24 24"
@@ -1065,13 +1063,11 @@
             >
           </li>
         </ul>
-        <h1 class="w-56 text-sm ml-6 mt-2 text-fadeTextCl z-20 bg-youtubeBg">
+        <h1 class="w-52 text-sm ml-6 mt-2 text-fadeTextCl z-20 bg-youtubeBg">
           Hakkında Basın Telif hakkı Bize ulaşın İçerik Üreticiler Reklam verme
           Geliştiriciler
         </h1>
-        <h1
-          class="w-56 h-auto text-sm ml-6 mt-2 text-fadeTextCl z-20 bg-youtubeBg"
-        >
+        <h1 class="w-52 text-sm ml-6 mt-2 text-fadeTextCl z-20 bg-youtubeBg">
           Şartlar Gizlilik Politika ve Güvenlik YouTube Nasıl Çalışıyor? Yeni
           özellikleri deneyin
         </h1>
@@ -1082,10 +1078,10 @@
 
       <!-- Left Nav Finish -->
       <!-- Top Nav Start -->
-      <div class="gen flex justify-between w-full fixed bg-youtubeBg">
+      <div class="gen flex justify-between w-full pl-8 fixed bg-youtubeBg">
         <!-- <div class="spaceBox bg-videosBgCl relative top-18 mr-40 h-2"></div> -->
         <div
-          class="suggestions flex top-14 relative ml-20 bg-youtubeBg w-screen border-t border-b border-borderCl"
+          class="suggestions flex top-14 relative ml-52 bg-youtubeBg w-screen border-t border-b border-borderCl"
         >
           <ul
             class="flex pt-3 text-sm border-t border-borderCl border-b pb-3 mx-auto"
@@ -1166,12 +1162,12 @@
       </div>
       <!-- Top Nav Finish -->
       <div class="generalCont mx-auto flex justify-center bg-videosBgCl">
-        <div class="generalFlow flex">
+        <div class="generalFlow block">
           <!--  General Videos Start -->
           <div
-            class="videos grid grid-cols-6 grid-rows-2 w-auto mr-auto ml-50 mt-36 gap-5"
+            class="videos flex w-auto mr-auto ml-60 mt-36 gap-5 stage1:grid-cols-5"
           >
-            <div class="videoInfo w-90 h-80">
+            <div class="videoInfo 1 w-90 h-80 -z-20">
               <a href="">
                 <img
                   src="/img/tailwindcss-1633184775.jpeg"
@@ -1204,7 +1200,7 @@
                 </div></a
               >
             </div>
-            <div class="videoInfo w-90 h-80">
+            <div class="videoInfo 2 w-90 h-80 stage8:hidden">
               <a href="">
                 <img
                   src="/img/tailwindcss-1633184775.jpeg"
@@ -1237,7 +1233,7 @@
                 </div></a
               >
             </div>
-            <div class="videoInfo w-90 h-80">
+            <div class="videoInfo 3 w-90 h-80 stage5:hidden">
               <a href="">
                 <img
                   src="/img/tailwindcss-1633184775.jpeg"
@@ -1270,7 +1266,7 @@
                 </div></a
               >
             </div>
-            <div class="videoInfo w-90 h-80">
+            <div class="videoInfo 4 w-90 h-80 stage4:hidden">
               <a href="">
                 <img
                   src="/img/tailwindcss-1633184775.jpeg"
@@ -1303,7 +1299,7 @@
                 </div></a
               >
             </div>
-            <div class="videoInfo w-90 h-80">
+            <div class="videoInfo 5 w-90 h-80 stage2:hidden">
               <a href="">
                 <img
                   src="/img/tailwindcss-1633184775.jpeg"
@@ -1336,7 +1332,7 @@
                 </div></a
               >
             </div>
-            <div class="videoInfo w-90 h-80">
+            <div class="videoInfo 6 w-90 h-80 stage1:hidden">
               <a href="">
                 <img
                   src="/img/tailwindcss-1633184775.jpeg"
@@ -1369,7 +1365,11 @@
                 </div></a
               >
             </div>
-            <div class="videoInfo w-90 h-80">
+          </div>
+          <div
+            class="videos flex w-auto mr-auto ml-60 mt-10 gap-5 stage1:grid-cols-5"
+          >
+            <div class="videoInfo 1 w-90 h-80">
               <a href="">
                 <img
                   src="/img/tailwindcss-1633184775.jpeg"
@@ -1402,7 +1402,7 @@
                 </div></a
               >
             </div>
-            <div class="videoInfo w-90 h-80">
+            <div class="videoInfo 2 w-90 h-80 stage8:hidden">
               <a href="">
                 <img
                   src="/img/tailwindcss-1633184775.jpeg"
@@ -1435,7 +1435,7 @@
                 </div></a
               >
             </div>
-            <div class="videoInfo w-90 h-80">
+            <div class="videoInfo 3 w-90 h-80 stage5:hidden">
               <a href="">
                 <img
                   src="/img/tailwindcss-1633184775.jpeg"
@@ -1468,7 +1468,7 @@
                 </div></a
               >
             </div>
-            <div class="videoInfo w-90 h-80">
+            <div class="videoInfo 4 w-90 h-80 stage4:hidden">
               <a href="">
                 <img
                   src="/img/tailwindcss-1633184775.jpeg"
@@ -1501,7 +1501,7 @@
                 </div></a
               >
             </div>
-            <div class="videoInfo w-90 h-80">
+            <div class="videoInfo 5 w-90 h-80 stage2:hidden">
               <a href="">
                 <img
                   src="/img/tailwindcss-1633184775.jpeg"
@@ -1534,7 +1534,7 @@
                 </div></a
               >
             </div>
-            <div class="videoInfo w-90 h-80">
+            <div class="videoInfo 6 w-90 h-80 stage1:hidden">
               <a href="">
                 <img
                   src="/img/tailwindcss-1633184775.jpeg"

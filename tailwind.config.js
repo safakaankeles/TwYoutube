@@ -15,7 +15,17 @@ module.exports = {
       suggestionsCl: "#3B3939",
       videosBgCl: "#181818",
     },
-
+    screens: {
+      stage1: { max: "2524px" },
+      stage2: { max: "2160px" },
+      stage3: { max: "1312px" },
+      stage4: { max: "1768px" },
+      stage5: { max: "1400px" },
+      stage6: { max: "1100px" },
+      stage7: { max: "656px" },
+      stage8: { max: "1000px" },
+      stage9: { max: "888px" },
+    },
     extend: {
       spacing: {
         90: "360px",
