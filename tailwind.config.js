@@ -20,11 +20,14 @@ module.exports = {
       stage2: { max: "2160px" },
       stage3: { max: "1312px" },
       stage4: { max: "1768px" },
-      stage5: { max: "1400px" },
+      stage5: { max: "1200px" },
       stage6: { max: "1100px" },
-      stage7: { max: "656px" },
-      stage8: { max: "1000px" },
-      stage9: { max: "888px" },
+      stage7: { max: "1412px" },
+      stage8: { max: "850px" },
+      stage9: { max: "1000px" },
+      stage10: { max: "1380px" },
+      stage11: { max: "750px" },
+      stage12: { max: "680px" },
     },
     extend: {
       spacing: {
@@ -44,6 +47,9 @@ module.exports = {
       height: {
         400: "3600px",
         320: "1280px",
+      },
+      transitionTimingFunction: {
+        videosHover: "cubic-bezier(2, 1)",
       },
     },
   },
