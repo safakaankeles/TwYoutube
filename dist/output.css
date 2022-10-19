@@ -508,10 +508,6 @@ video {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
@@ -524,12 +520,12 @@ video {
   top: 0.5rem;
 }
 
-.top-80 {
-  top: 20rem;
+.top-5 {
+  top: 1.25rem;
 }
 
-.left-150 {
-  left: 600px;
+.top-10 {
+  top: 2.5rem;
 }
 
 .z-40 {
@@ -647,48 +643,16 @@ video {
   margin-right: 0.75rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-40 {
-  margin-bottom: 10rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.-mt-20 {
-  margin-top: -5rem;
-}
-
-.-mt-28 {
-  margin-top: -7rem;
-}
-
 .-mt-24 {
   margin-top: -6rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
-}
-
-.ml-28 {
-  margin-left: 7rem;
-}
-
 .ml-32 {
   margin-left: 8rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .block {
@@ -729,6 +693,10 @@ video {
 
 .h-9 {
   height: 2.25rem;
+}
+
+.h-120 {
+  height: 480px;
 }
 
 .w-full {
@@ -843,6 +811,11 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.border-y-4 {
+  border-top-width: 4px;
+  border-bottom-width: 4px;
 }
 
 .border-b {
@@ -993,6 +966,10 @@ video {
   font-weight: 700;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .leading-10 {
   line-height: 2.5rem;
 }
@@ -1048,18 +1025,6 @@ video {
   transition-duration: 150ms;
 }
 
-.ease-videosHover {
-  transition-timing-function: cubic-bezier(2, 1);
-}
-
-.ease-linear {
-  transition-timing-function: linear;
-}
-
-.ease-in {
-  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-}
-
 /* 2304 6’lı grid
 1968 5li grid
 1312 leftnav küçülcek
@@ -1097,10 +1062,6 @@ li {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #717070;
-}
-
-.hover\:block:hover {
-  display: block;
 }
 
 .hover\:scale-y-110:hover {
@@ -1178,6 +1139,10 @@ li {
 
   .stage7\:ml-12 {
     margin-left: 3rem;
+  }
+
+  .stage7\:ml-60 {
+    margin-left: 15rem;
   }
 
   .stage7\:block {
@@ -1294,6 +1259,54 @@ li {
   }
 
   .stage12\:hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 2524px) {
+  .short1\:hidden {
+    display: none;
+  }
+
+  .short2\:hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 2160px) {
+  .short3\:hidden {
+    display: none;
+  }
+
+  .short4\:hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 1770px) {
+  .short5\:hidden {
+    display: none;
+  }
+
+  .short6\:hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .short7\:hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 1124px) {
+  .short8\:hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .short9\:hidden {
     display: none;
   }
 }

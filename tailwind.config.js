@@ -28,6 +28,15 @@ module.exports = {
       stage10: { max: "1380px" },
       stage11: { max: "750px" },
       stage12: { max: "680px" },
+      short1: { max: "2524px" },
+      short2: { max: "2524px" },
+      short3: { max: "2160px" },
+      short4: { max: "2160px" },
+      short5: { max: "1770px" },
+      short6: { max: "1770px" },
+      short7: { max: "1200px" },
+      short8: { max: "1124px" },
+      short9: { max: "850px" },
     },
     extend: {
       spacing: {
